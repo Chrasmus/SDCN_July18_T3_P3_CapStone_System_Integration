@@ -14,4 +14,4 @@ frozen_models/frozen_simulator_inception/model*
 
 /*.config
 
-*.record
+data/*.record
