@@ -1,0 +1,23 @@
+(venv) root@28fa3807977f:/opt/web-terminal# rostopic info /current_pose
+Type: geometry_msgs/PoseStamped
+
+Publishers: None
+
+Subscribers: 
+ * /pure_pursuit (http://28fa3807977f:41959/)
+ * /waypoint_updater (http://28fa3807977f:44771/)
+ * /tl_detector (http://28fa3807977f:37297/)
+
+
+(venv) root@28fa3807977f:/opt/web-terminal# rostopic info /current_pose
+Type: geometry_msgs/PoseStamped
+
+Publishers: 
+ * /styx_server (http://28fa3807977f:42581/)
+
+Subscribers: 
+ * /pure_pursuit (http://28fa3807977f:41905/)
+ * /waypoint_updater (http://28fa3807977f:36407/)
+ * /tl_detector (http://28fa3807977f:36055/)
+
+
